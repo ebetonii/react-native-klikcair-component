@@ -1,6 +1,6 @@
 {
   "name": "react-native-klikcair-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main":"dist/cjs/index.js",
   "scripts": {
     "start": "expo start",
@@ -45,5 +45,6 @@
     "expo-font": "~11.0.1",
     "@tsconfig/recommended": "^1.0.1"
   },
-  "private": true
+  "repository": "https://github.com/ebetonii/react-native-klikcair-component"
+
 }
