@@ -1,7 +1,7 @@
 {
   "name": "react-native-klikcair-component",
   "version": "1.0.0",
-  "main": "dis/cjs/index.js",
+  "main":"dist/cjs/index.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -14,9 +14,10 @@
     "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
   },
   "peerDepencies": {
+    "@expo-google-fonts/inter": "^0.2.2",
     "@react-native-async-storage/async-storage": "^1.17.11",
+    "@tsconfig/recommended": "^1.0.1",
     "expo-status-bar": "~1.4.2",
-    "expo": "^40.0.0",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-native": "0.70.5",
@@ -31,7 +32,6 @@
     "@storybook/addon-ondevice-knobs": "^5.3.26",
     "@storybook/react-native": "^5.3.27",
     "@storybook/react-native-server": "^5.3.23",
-    "@tsconfig/recommended": "^1.0.1",
     "@types/react": "~18.0.14",
     "@types/react-native": "~0.70.6",
     "babel-loader": "^8.3.0",
@@ -41,7 +41,9 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-terser": "^7.0.2",
-    "typescript": "^4.6.3"
+    "typescript": "^4.6.3",
+    "expo-font": "~11.0.1",
+    "@tsconfig/recommended": "^1.0.1"
   },
   "private": true
 }
