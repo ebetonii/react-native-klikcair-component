@@ -2,7 +2,7 @@ import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import React from "react";
 import {font} from "../../assets/styles";
 import {fontSize} from '../../assets/styles'
-import { backgroundColor} from "../../assets/styles/colors.js";
+import { backgroundColor } from "../../assets/styles/index";
 import { scale } from "../../helper/scaling";
 
 export default function BStandartShort({
