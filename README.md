@@ -10,7 +10,7 @@ using yarn:
 
 ## Usage
 
-_Note: if you using version react native >= 0.69 you must download and config your font Lato
+_Note: if you using version react native >= 0.69 you must download and config your font Lato._
 
 ```js
 import {Button} from 'react-native-klikcair-component'
