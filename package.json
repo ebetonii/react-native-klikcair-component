@@ -2,7 +2,7 @@
   "name": "react-native-klikcair-component",
   "author": "Klikcair",
   "license": "Klikcair",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "dist/cjs/src/components/index.js",
   "scripts": {
     "start": "expo start",
@@ -15,7 +15,7 @@
     "build:esm": "tsc",
     "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
   },
-  "dependencies": {
+  "peerDependencies": {
     "@expo-google-fonts/inter": "^0.2.2",
     "expo": "~47.0.8",
     "expo-font": "~11.0.1",
