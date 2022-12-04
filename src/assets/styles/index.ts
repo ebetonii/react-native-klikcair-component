@@ -1,11 +1,11 @@
 
-export { default as fontSize } from './fontSize.js';
-export * from './fontSize.js';
-export * from './colors.js';
-export * from './styles.js';
-export { default as font } from './font.js';
-export * from './font.js'
-export * from './size.js'
+export { default as fontSize } from './fontSize';
+export * from './fontSize';
+export * from './colors';
+export * from './styles';
+export { default as font } from './font';
+export * from './font'
+export * from './size'
 export {
     CNeutral,
     CNeutral1,
@@ -53,4 +53,4 @@ export {
     CError,
     backgroundColor,
     color,
-  } from './colors.js'
+  } from './colors'

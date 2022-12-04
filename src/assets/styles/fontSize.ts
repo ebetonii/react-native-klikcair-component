@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native'
-import { px8, px9, px10, px11, px12, px13, px14, px15, px16, px17, px18, px19, px20, px21, px22, px23, px40, px32, px30, px28, px25, px26, headline4, headline5, headline6, body1, body2, button, caption } from "./size"
+import { px8, px9, px10, px11, px12, px13, px14, px15, px16, px17, px18, px19, px20, px21, px22, px23, headline4, headline5, headline6, body1, body2, button, caption } from "./size"
 
 const fontSize = StyleSheet.create({
   8 : {

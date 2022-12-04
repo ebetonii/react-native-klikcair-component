@@ -1,13 +1,10 @@
 import { StyleSheet } from 'react-native'
-import { px13, px15, px14, px12, button, headline4, headline5, headline6, caption, body1, body2 } from './size'
+import { px13, px15, px12, headline4, headline5, headline6, caption, body1, body2 } from './size'
 import { scale } from '../../helper/scaling'
 import { CError,CSuccess } from './colors'
-import { useFonts } from 'expo-font'
 
 const standardFont = px13
-const standardFontTitle = px15
 const padding = scale(10)
-const buttonSize = button
 
 
 const font = StyleSheet.create({
