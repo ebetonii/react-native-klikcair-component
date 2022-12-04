@@ -1,7 +1,7 @@
 // src/components/atoms/CustomButton.stories.tsx
 
 import { storiesOf } from "@storybook/react-native";
-import { CenterView } from "../../../storybook/stories/CenterView";
+import { CenterView } from "../CenterView";
 import React from "react";
 import Button from "../../../src/components/Button";
 import { boolean, select, text } from "@storybook/addon-knobs";

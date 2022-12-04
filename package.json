@@ -1,8 +1,9 @@
 {
   "name": "react-native-klikcair-component",
-  "version": "1.0.2",
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
+  "author": "Klikcair",
+  "license": "Klikcair",
+  "version": "1.0.3",
+  "main": "dist/cjs/App.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -14,8 +15,10 @@
     "build:esm": "tsc",
     "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
   },
-  "peerDepencies": {
+  "dependencies": {
     "@expo-google-fonts/inter": "^0.2.2",
+    "expo": "~47.0.8",
+    "expo-font": "~11.0.1",
     "@react-native-async-storage/async-storage": "^1.17.11",
     "@tsconfig/recommended": "^1.0.1",
     "expo-status-bar": "~1.4.2",
@@ -47,5 +50,4 @@
     "@tsconfig/recommended": "^1.0.1"
   },
   "repository": "https://github.com/ebetonii/react-native-klikcair-component"
-
 }

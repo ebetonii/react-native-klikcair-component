@@ -1,0 +1,1 @@
+export default ['./Lato-Regular.ttf', './Lato-Semibold.ttf', './Lato-Bold.ttf'];

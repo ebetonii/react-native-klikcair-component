@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native'
-import { scale } from '../helper/scaling';
+import { scale } from '../../helper/scaling';
 
 export default StyleSheet.create({
   ContainerUpload : {

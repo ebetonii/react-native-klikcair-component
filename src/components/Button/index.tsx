@@ -1,8 +1,8 @@
 import { ActivityIndicator} from "react-native";
-import React, { useEffect } from "react";
+import React from "react";
 import BStandartShort from "./BStandartShort";
 import BStandartLong from "./BStandartLong";
-import { useFonts } from "expo-font";
+// import { useFonts } from "expo-font";
 
 interface ButtonProps {
   disable?: boolean;
@@ -40,17 +40,17 @@ export default function Button({
   category = category.toLowerCase();
   size = size.toLowerCase();
   type = type && type.toLowerCase();
-  const [fontsLoaded] = useFonts({
-    "Lato-Regular": require("../fonts/Lato/Lato-Regular.ttf"),
-    "Lato-Semibold": require("../fonts/Lato/Lato-Semibold.ttf"),
-    "Lato-Bold": require("../fonts/Lato/Lato-Bold.ttf"),
-  });
+  // const [fontsLoaded] = useFonts({
+  //   "Lato-Regular": require(".fonts/Lato/Lato-Regular.ttf"),
+  //   "Lato-Semibold": require("../fonts/Lato/Lato-Semibold.ttf"),
+  //   "Lato-Bold": require("../fonts/Lato/Lato-Bold.ttf"),
+  // });
 
-  useEffect((): any => {
-    if (!fontsLoaded) {
-      return null;
-    }
-  }, [fontsLoaded]);
+  // useEffect((): any => {
+  //   if (!fontsLoaded) {
+  //     return null;
+  //   }
+  // }, [fontsLoaded]);
 
   return isLoading ? (
     <ActivityIndicator size="large" color={loadingColor} />
