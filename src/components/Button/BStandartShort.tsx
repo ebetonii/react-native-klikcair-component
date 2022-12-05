@@ -5,6 +5,20 @@ import { fontSize } from "../../assets/styles";
 import { backgroundColor } from "../../assets/styles/index";
 import { scale } from "../../helper/scaling";
 
+interface BStandartShort {
+  disable: boolean;
+  onPress?: any;
+  icon?: any;
+  title?: string;
+  type: string;
+  children?: any;
+  styleContainer?: any;
+  styleText?: any;
+  textColor: string;
+  buttonColor: string;
+  round: boolean;
+}
+
 export default function BStandartShort({
   disable,
   onPress,
@@ -16,7 +30,7 @@ export default function BStandartShort({
   textColor,
   buttonColor,
   round,
-}) {
+}: BStandartShort) {
   return disable ? (
     <View
       style={[

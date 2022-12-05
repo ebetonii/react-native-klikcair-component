@@ -1,9 +1,23 @@
 import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import React from "react";
-import {font} from "../../assets/styles";
-import {fontSize} from '../../assets/styles'
+import { font } from "../../assets/styles";
+import { fontSize } from "../../assets/styles";
 import { backgroundColor } from "../../assets/styles/index";
 import { scale } from "../../helper/scaling";
+
+interface BStandartLong {
+  disable: boolean;
+  onPress?: any;
+  icon?: any;
+  title?: string;
+  type: string;
+  children?: any;
+  styleContainer?: any;
+  styleText?: any;
+  textColor: string;
+  buttonColor: string;
+  round: boolean;
+}
 
 export default function BStandartLong({
   disable,
@@ -15,8 +29,8 @@ export default function BStandartLong({
   styleText,
   textColor,
   buttonColor,
-  round
-}) {
+  round,
+}: BStandartLong) {
   return disable ? (
     <View
       style={[
@@ -154,9 +168,9 @@ const styles = StyleSheet.create({
     alignItems: "center",
     borderRadius: scale(4),
   },
-  roundContainer:{
-    justifyContent: 'center',
-    alignItems: 'center',
+  roundContainer: {
+    justifyContent: "center",
+    alignItems: "center",
     borderRadius: scale(50),
   },
   size: {

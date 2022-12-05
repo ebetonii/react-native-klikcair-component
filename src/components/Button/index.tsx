@@ -7,9 +7,9 @@ import BSquare from "./BSquare";
 // import { useFonts } from "expo-font";
 
 interface ButtonProps {
-  disable?: boolean;
+  disable: boolean;
   onPress?: any;
-  icon?: string;
+  icon?: any;
   type: "primary" | "secondary" | "link" | "textLink" | string;
   title: string;
   size?: "short" | "long" | string;
@@ -19,9 +19,9 @@ interface ButtonProps {
   styleContainer?: any;
   styleText?: any;
   loadingColor?: string;
-  buttonColor?: string;
-  textColor?: string;
-  round?: boolean;
+  buttonColor: string;
+  textColor: string;
+  round: boolean;
 }
 
 export default function Button({

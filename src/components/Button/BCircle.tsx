@@ -9,6 +9,19 @@ import { font } from "../../assets/styles";
 import { fontSize } from "../../assets/styles";
 import { scale } from "../../helper/scaling";
 
+interface BCircleProps {
+  disable: boolean,
+  onPress?: any,
+  icon?: any,
+  title?: string,
+  type: string,
+  children?: any,
+  styleContainer?: any,
+  styleText?:any,
+  textColor: string,
+  buttonColor: string,
+}
+
 export default function BCircle({
   disable,
   onPress,
@@ -20,7 +33,7 @@ export default function BCircle({
   styleText,
   textColor,
   buttonColor,
-}) {
+} : BCircleProps ) {
   return disable ? (
     <View
       style={[
