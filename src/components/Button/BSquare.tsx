@@ -52,7 +52,9 @@ export default function BSquare({
   ) : type === "primary" ? (
     <TouchableOpacity
       style={[
-        backgroundColor.Primary1,
+        {
+          backgroundColor: buttonColor,
+        },
         styles.container,
         icon && { flexDirection: "row" },
         styles.size,
