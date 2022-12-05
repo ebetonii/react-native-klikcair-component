@@ -136,6 +136,6 @@ Button.defaultProps = {
   isLoading: false,
   loadingColor: "#1674BE",
   buttonColor: "#1674BE",
-  textColor: "#1674BE",
+  textColor: "#FFFFFF",
   round: false,
 };
