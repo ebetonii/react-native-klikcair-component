@@ -9,4 +9,4 @@
 - COOMING SOON
 
 [GitHub](https://github.com/ebetonii/react-native-klikcair-component/)
-[Get Started](#Home)
+[Get Started](#ANNOUNCEMENT)
