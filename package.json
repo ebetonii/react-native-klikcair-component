@@ -2,7 +2,7 @@
   "name": "react-native-klikcair-component",
   "author": "Klikcair",
   "license": "Klikcair",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "dist/cjs/src/components/index.js",
   "scripts": {
     "start": "expo start",
