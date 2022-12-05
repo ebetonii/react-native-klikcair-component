@@ -39,3 +39,4 @@ import {Button} from 'react-native-klikcair-component'
 | Props       | Description  | Default  | Type |
 | ------------- |:-------------| :-----| :----- |
 | **`size`** | to specify the size of the  `button`| `long` | `string ('long','short')`|
+| **`round`** | to make round  `button`| `false` | `boolean`|
