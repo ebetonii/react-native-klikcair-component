@@ -1,5 +1,7 @@
 <!-- docs/_sidebar.md -->
 
-* [Home](_home.md)
-* [Quick Start](_quickstart.md)
-* [Guide](guide.md)
+* [Component](component/README.md)
+    * [TextInput](component/_textinput.md)
+    * [Button](component/_button.md)
+* [Style](_style.md)
+* [Back to cover page](/)
