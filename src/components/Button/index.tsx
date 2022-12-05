@@ -1,7 +1,9 @@
-import { ActivityIndicator} from "react-native";
+import { ActivityIndicator } from "react-native";
 import React from "react";
 import BStandartShort from "./BStandartShort";
 import BStandartLong from "./BStandartLong";
+import BCircle from "./BCircle";
+import BSquare from "./BSquare";
 // import { useFonts } from "expo-font";
 
 interface ButtonProps {
@@ -16,9 +18,10 @@ interface ButtonProps {
   category: "standard" | "circle" | "square" | string;
   styleContainer?: any;
   styleText?: any;
-  loadingColor?: "#1674BE" | string;
-  buttonColor?: "#1674BE" | string;
-  textColor?: "#1674BE" | string;
+  loadingColor?: string;
+  buttonColor?: string;
+  textColor?: string;
+  round?: boolean;
 }
 
 export default function Button({
@@ -36,6 +39,7 @@ export default function Button({
   loadingColor,
   buttonColor,
   textColor,
+  round,
 }: ButtonProps) {
   category = category.toLowerCase();
   size = size.toLowerCase();
@@ -54,6 +58,32 @@ export default function Button({
 
   return isLoading ? (
     <ActivityIndicator size="large" color={loadingColor} />
+  ) : category === "square" ? (
+    <BSquare
+      disable={disable}
+      onPress={onPress}
+      icon={icon}
+      type={type}
+      title={title}
+      styleContainer={styleContainer}
+      styleText={styleText}
+      buttonColor={buttonColor}
+      textColor={textColor}
+      children={children}
+    />
+  ) : category === "circle" ? (
+    <BCircle
+      disable={disable}
+      onPress={onPress}
+      icon={icon}
+      type={type}
+      title={title}
+      styleContainer={styleContainer}
+      styleText={styleText}
+      buttonColor={buttonColor}
+      textColor={textColor}
+      children={children}
+    />
   ) : category && "standard" ? (
     size === "short" ? (
       <BStandartShort
@@ -66,6 +96,7 @@ export default function Button({
         styleText={styleText}
         buttonColor={buttonColor}
         textColor={textColor}
+        round={round}
       />
     ) : (
       <BStandartLong
@@ -78,6 +109,7 @@ export default function Button({
         styleText={styleText}
         buttonColor={buttonColor}
         textColor={textColor}
+        round={round}
       />
     )
   ) : (
@@ -91,6 +123,7 @@ export default function Button({
       styleText={styleText}
       buttonColor={buttonColor}
       textColor={textColor}
+      round={round}
     />
   );
 }
@@ -104,4 +137,5 @@ Button.defaultProps = {
   loadingColor: "#1674BE",
   buttonColor: "#1674BE",
   textColor: "#1674BE",
+  round: false,
 };

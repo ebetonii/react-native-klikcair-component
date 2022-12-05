@@ -1,7 +1,7 @@
 import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import React from "react";
-import {font} from "../../assets/styles";
-import {fontSize} from '../../assets/styles'
+import { font } from "../../assets/styles";
+import { fontSize } from "../../assets/styles";
 import { backgroundColor } from "../../assets/styles/index";
 import { scale } from "../../helper/scaling";
 
@@ -15,13 +15,14 @@ export default function BStandartShort({
   styleText,
   textColor,
   buttonColor,
+  round,
 }) {
   return disable ? (
     <View
       style={[
         backgroundColor.Neutral4,
         icon && { flexDirection: "row" },
-        styles.container,
+        round ? styles.roundContainer : styles.container,
         styles.size,
         styleContainer,
       ]}
@@ -49,7 +50,7 @@ export default function BStandartShort({
         {
           backgroundColor: buttonColor,
         },
-        styles.container,
+        round ? styles.roundContainer : styles.container,
         icon && { flexDirection: "row" },
         styles.size,
         styleContainer,
@@ -78,7 +79,7 @@ export default function BStandartShort({
       style={[
         { borderWidth: 1, borderColor: buttonColor },
         backgroundColor.Transparent,
-        styles.container,
+        round ? styles.roundContainer : styles.container,
         icon && { flexDirection: "row" },
         styles.size,
         styleContainer,
@@ -106,7 +107,7 @@ export default function BStandartShort({
     <TouchableOpacity
       style={[
         { borderWidth: 1, borderColor: buttonColor, borderStyle: "dashed" },
-        styles.container,
+        round ? styles.roundContainer : styles.container,
         icon && { flexDirection: "row" },
         styles.size,
         styleContainer,
@@ -152,6 +153,11 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     borderRadius: scale(4),
+  },
+  roundContainer: {
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: scale(50),
   },
   size: {
     width: "40%",

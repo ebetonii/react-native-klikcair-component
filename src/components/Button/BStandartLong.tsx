@@ -15,13 +15,14 @@ export default function BStandartLong({
   styleText,
   textColor,
   buttonColor,
+  round
 }) {
   return disable ? (
     <View
       style={[
         backgroundColor.Neutral4,
         icon && { flexDirection: "row" },
-        styles.container,
+        round ? styles.roundContainer : styles.container,
         styles.size,
         styleContainer,
       ]}
@@ -49,7 +50,7 @@ export default function BStandartLong({
         {
           backgroundColor: buttonColor,
         },
-        styles.container,
+        round ? styles.roundContainer : styles.container,
         icon && { flexDirection: "row" },
         styles.size,
         styleContainer,
@@ -78,7 +79,7 @@ export default function BStandartLong({
       style={[
         { borderWidth: 1, borderColor: buttonColor },
         backgroundColor.Transparent,
-        styles.container,
+        round ? styles.roundContainer : styles.container,
         icon && { flexDirection: "row" },
         styles.size,
         styleContainer,
@@ -106,7 +107,7 @@ export default function BStandartLong({
     <TouchableOpacity
       style={[
         { borderWidth: 1, borderColor: buttonColor, borderStyle: "dashed" },
-        styles.container,
+        round ? styles.roundContainer : styles.container,
         icon && { flexDirection: "row" },
         styles.size,
         styleContainer,
@@ -152,6 +153,11 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     borderRadius: scale(4),
+  },
+  roundContainer:{
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: scale(50),
   },
   size: {
     width: "100%",
