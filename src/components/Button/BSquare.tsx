@@ -2,10 +2,7 @@ import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import React from "react";
 import {
   backgroundColor,
-  CNeutral5,
-  CNeutral7,
   color,
-  CTextLight,
   CTextLight4,
 } from "../../assets/styles/index";
 import { font } from "../../assets/styles";
