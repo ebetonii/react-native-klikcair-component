@@ -1,4 +1,5 @@
 # React Native KlikCair Component
+react native component is custom component for react native. support typescript
 
 ## Getting Started
 
