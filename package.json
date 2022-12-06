@@ -1,8 +1,8 @@
 {
   "name": "react-native-klikcair-component",
   "author": "Klikcair",
-  "license": "Klikcair",
-  "version": "2.0.1",
+  "license": "MIT",
+  "version": "2.0.2",
   "main": "dist/cjs/src/components/index.js",
   "scripts": {
     "start": "expo start",
@@ -49,5 +49,8 @@
     "expo-font": "~11.0.1",
     "@tsconfig/recommended": "^1.0.1"
   },
-  "repository": "https://github.com/ebetonii/react-native-klikcair-component"
+  "repository": {
+    "directory": "https://github.com/ebetonii/react-native-klikcair-component",
+    "url": "https://ebetonii.github.io/react-native-klikcair-component/"
+  }
 }
