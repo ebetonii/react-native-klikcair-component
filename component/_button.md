@@ -1,6 +1,6 @@
 # Button
 
-### Button
+### Usage
 
 ```js
 import {Button} from 'lib/component'
@@ -9,7 +9,7 @@ import {Button} from 'lib/component'
 
 ```
 
-### Properties for all component Button
+### `Button` all props
 
 | Props       | Description  | Default  | Type |
 | ------------- |:-------------| :-----| :----- |
@@ -24,7 +24,7 @@ import {Button} from 'lib/component'
 | **`buttonColor`** | to add color to the `button` <em> (under development) <em/>  |    `#1674BE` | `string`  |
 | **`textColor`** | to add color to the text `button` <em> (under development) <em/>  |    `#1674BE` | `string`  |
 
-### Properties for `button` Standard
+### `Button` standard props
 
 | Props       | Description  | Default  | Type |
 | ------------- |:-------------| :-----| :----- |

@@ -1,6 +1,6 @@
 # TextInput
 
-### TextInput
+### Usage
 
 ```js
 import {TextInput} from 'lib/component'
@@ -9,7 +9,7 @@ import {TextInput} from 'lib/component'
 
 ```
 
-### Properties for all component TextInput
+### `Textinput` all props
 | Props       | Description  | Default  | Type |
 | ------------- |:-------------:| :-----:| :-----: |
 | **`placeholder`**     |to give the placeholder on `textinput` component  | - | `string` |
@@ -24,31 +24,31 @@ import {TextInput} from 'lib/component'
 | **`blurColor`**     |determines the color of the border when the keyboard is blur or idle | `#D9D9D9` | `string` |
 | **`style`**     |gives additional style to the `textinput` | - | `object` |
 
-### Properties for component `TextInput` type normal & title
+### `TextInput` type normal & title props
 | Props       | Description  | Default  | Type |
 | ------------- |:-------------:| :-----:| :-----: |
 | **`isEmpty`**     |option to allow empty `textinput` | `false` | `boolean` |
 | **`isMandatory`**     |option that requires `textinput` to be filled | `false` | `boolean` |
 
-### Properties for component `TextInput` type subtitle
+### `TextInput` type subtitle props
 | Props       | Description  | Default  | Type |
 | ------------- |:-------------:| :-----:| :-----: |
 | **`subtitleType`**     |determines the type of subtitle | `normal`|`error`,`normal` |
 
-### Properties for component `TextInput` type titlensubtitle
+### `TextInput` type titlensubtitle props
 | Props       | Description  | Default  | Type |
 | ------------- |:-------------:| :-----:| :-----: |
 | **`isEmpty`**     |option to allow empty `textinput` | `false` | `boolean` |
 | **`isMandatory`**     |option that requires `textinput` to be filled | `false` | `boolean` |
 | **`subtitleType`**     |determines the type of subtitle | `normal`|`error`,`normal` |
 
-### Properties for component `TextInput` type phone
+### `TextInput` type phone props
 | Props       | Description  | Default  | Type |
 | ------------- |:-------------:| :-----:| :-----: |
 | **`countryNumber`**     |to specify the country number in the `textinput` | `+62` | `string` |
 | **`contextMenuHidden`**     | | `true` | `boolean` |
 
-### Properties for component `TextInput` type prefix,suffix & prefixsuffix
+### `TextInput` type prefix,<br/> suffix & prefixsuffix <br/> props
 | Props       | Description  | Default  | Type |
 | ------------- |:-------------:| :-----:| :-----: |
 | **`icon`**     | adding icon to `textinput` | - | `any` |

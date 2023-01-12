@@ -16,7 +16,7 @@ const openModal = () => {
 
 ```
 
-### Properties for all component Button
+### `Modal` all props
 
 | Props       | Description  | Default  | Type |
 | ------------- |:-------------| :-----| :----- |
@@ -26,7 +26,7 @@ const openModal = () => {
 | **`close`**     |An action that determines whether the `modal` can be closed or not. | `true` | `boolean` |
 | **`type`**     |Determining the type of `modal` to be used | `-` | `string`,{ `information`,`medium`, `small` } |
 
-### Properties for `modal` information
+### `Modal` information props
 
 | Props       | Description  | Default  | Type |
 | ------------- |:-------------| :-----| :----- |
@@ -37,7 +37,7 @@ const openModal = () => {
 | **`withoutBtn`** |Determining whether the `modal` uses a button component or not | `false` | `boolean` |
 | **`height`** |Determining the height of the `modal` | `320` | `number` |
 
-### Properties for `modal` small
+### `Modal` small props
 
 | Props       | Description  | Default  | Type |
 | ------------- |:-------------| :-----| :----- |
@@ -46,7 +46,7 @@ const openModal = () => {
 |**`backAction`** |Providing action to the back or secondary button within the `modal`| `-` | `function` |
 |**`titleBackBtn`** |Providing a title for the back or secondary button within the `modal`| `TUTUP` | `string` |
 
-### Properties for `modal` medium
+### `Modal` medium props
 
 | Props       | Description  | Default  | Type |
 | ------------- |:-------------| :-----| :----- |
