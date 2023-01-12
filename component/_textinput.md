@@ -16,9 +16,9 @@ import {TextInput} from 'react-native-klikcair-component'
 | **`onChangeText`**     |function to provide action when the text changes  | - | `function` |
 | **`value`**     |displays the value contained in the `textinput` | - | `string` |
 | **`disable`**     |gives disable action on `textinput`  | `false` | `boolean` |
-| **`type`**     |determines type of the `textinput` | `normal` | `string` `(normal,prefix,suffix,prefixsuffix,title,subtitle,titlensubtitle,phone)` |
+| **`type`**     |determines type of the `textinput` | `normal` | `string` `(normal,prefix,suffix,prefixsuffix,title, \n subtitle,titlensubtitle,phone)` |
 | **`size`**     |determines the size of the `textinput`  | `medium` | `string('medium','large')` |
-| **`keyboardType`**     |determines the keyboard type of the `textinput`  | `default` | enum `("default", 'numeric', 'email-address', "ascii-capable", 'numbers-and-punctuation', 'url', 'number-pad', 'phone-pad', 'name-phone-pad', 'decimal-pad', 'twitter', 'web-search', 'visible-password')` |
+| **`keyboardType`**     |determines the keyboard type of the `textinput`  | `default` | enum `("default", 'numeric', 'email-address', "ascii-capable", \n 'numbers-and-punctuation', 'url', 'number-pad', 'phone-pad', \n 'name-phone-pad', 'decimal-pad', 'twitter', 'web-search', \n 'visible-password')` |
 | **`maxLength`**     |determines the length of the entered character | - | `number` |
 | **`focusColor`**     |determines the color of the border when the keyboard is focused | `#40A9FF` | `string` |
 | **`blurColor`**     |determines the color of the border when the keyboard is blur or idle | `#D9D9D9` | `string` |
