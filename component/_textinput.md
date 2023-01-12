@@ -3,7 +3,7 @@
 ### TextInput
 
 ```js
-import {TextInput} from 'react-native-klikcair-component'
+import {TextInput} from 'lib/component'
 
 <TextInput props />
 

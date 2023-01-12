@@ -8,5 +8,5 @@
 
 - COOMING SOON
 
-[GitHub](https://github.com/ebetonii/react-native-klikcair-component/)
+[GitHub](https://github.com/toniebe)
 [Get Started](#ANNOUNCEMENT)

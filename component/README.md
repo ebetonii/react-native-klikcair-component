@@ -1,12 +1,12 @@
-# react-native-klikcair-component
+# react native klikcair component
 react native component is custom component for react native. support typescript
 
-## instalation
+<!-- ## instalation
 using npm:
 `$ npm install react-native-klikcair-component`
 
 using yarn:
-`$ yarn add react-native-klikcair-component`
+`$ yarn add react-native-klikcair-component` -->
 
 ## Usage
 

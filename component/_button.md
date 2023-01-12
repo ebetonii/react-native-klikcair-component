@@ -3,7 +3,7 @@
 ### Button
 
 ```js
-import {Button} from 'react-native-klikcair-component'
+import {Button} from 'lib/component'
 
 <Button props />
 
@@ -20,9 +20,9 @@ import {Button} from 'react-native-klikcair-component'
 | **`icon`** | to add an icon to the `button` component   |    - | `string`  |
 | **`styleContainer`** | to give additional styling to the `button` component's container  |    - | `object`  |
 | **`styleText`** | to give additional styling to the `button` component's text  |    - | `object`  |
-| **`loadingColor`** | to add color to the loading props  |    `#1674BE` | `string`  |
-| **`buttonColor`** | to add color to the `button`  |    `#1674BE` | `string`  |
-| **`textColor`** | to add color to the text `button`  |    `#1674BE` | `string`  |
+| **`loadingColor`** | to add color to the loading props <em>(under development) <em/>  |    `#1674BE` | `string`  |
+| **`buttonColor`** | to add color to the `button` <em> (under development) <em/>  |    `#1674BE` | `string`  |
+| **`textColor`** | to add color to the text `button` <em> (under development) <em/>  |    `#1674BE` | `string`  |
 
 ### Properties for `button` Standard
 
