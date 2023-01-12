@@ -6,7 +6,7 @@ Referring to the need for the `<Button />` component in the **UI/UX** design tea
 
 | Type <br/> Category| Primary  | Secondary  | Link | Link (Text Only) |
 | :-------------: |:-------------: | :-----: | :-----: |  :-----: |
-| `Standard Long` | ![long_primary](/_assets/button/long_primary.png) | ![long_secondary](/_assets/button/long_secondary.png) | ![long_link](/_assets/button/long_link.png) | ![example](/_assets/button/circle_link.png) |
+| `Standard Long` | ![long_primary](https://i.postimg.cc/yDJR00yH/long-primary.png ':size=100') | ![long_secondary](https://i.postimg.cc/nM0953dx/long-secondary.png ':size=100') | ![long_link](https://i.postimg.cc/56KvHsvg/long-link.png ':size=100') | `-` |
 
 ### Usage
 
