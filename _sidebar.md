@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-* [Component](component/README.md)
+* [Component](component/_component.md)
     * [TextInput](component/_textinput.md)
     * [Button](component/_button.md)
     * [Modal](component/_modal.md)
