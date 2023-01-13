@@ -6,7 +6,7 @@ Referring to the need for the `<Button />` component in the **UI/UX** design tea
 
 | Type <br/> Category| Primary  | Secondary  | Link | Link (Text Only) |
 | :-------------: |:-------------: | :-----: | :-----: |  :-----: |
-| `Standard Long` | ![long_primary](https://i.postimg.cc/yDJR00yH/long-primary.png ':size=200') | ![long_secondary](https://i.postimg.cc/nM0953dx/long-secondary.png ':size=200') | ![long_link](https://i.postimg.cc/56KvHsvg/long-link.png ':size=200') | `-` |
+| `Standard Long` | ![long_primary](https://ebetonii.github.io/react-native-klikcair-component/_assets/button/long_primary.png ':size=200') | ![long_secondary](https://ebetonii.github.io/react-native-klikcair-component/_assets/button/long_secondary.png ':size=200') | ![long_link](https://ebetonii.github.io/react-native-klikcair-component/_assets/button/long_link.png ':size=200') | `-` |
 | `Standard Short` | ![short_primary](https://i.postimg.cc/DJhbVHkv/short-primary.png ':size=200') | ![short_secondary](https://i.postimg.cc/xJPN95nK/short-secondary.png ':size=200') | ![short_link](https://i.postimg.cc/Dm2bB9P5/short-link.png ':size=200') | ![short_link_text](https://i.postimg.cc/crLw4pK6/short-link-text.png ':size=200') |
 | `Circle` | ![circle_primary](https://i.postimg.cc/XrTCLXsy/circle-primary.png ':size=200') | ![circle_secondary](https://i.postimg.cc/McVjFxL3/circle-secondary.png ':size=200') | ![circle_link](https://i.postimg.cc/9zpy2mQv/circle-link.png ':size=200') | `-` |
 | `Square` | ![square_primary](https://i.postimg.cc/kRX6GSgL/square-primary.png ':size=200') | ![square_secondary](https://i.postimg.cc/2VtbjVRX/square-secondary.png ':size=200') | ![square_link](https://i.postimg.cc/2VyLfnJZ/square-link.png ':size=200') | `-` |

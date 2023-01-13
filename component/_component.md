@@ -1,4 +1,4 @@
-# react native klikcair component
+# react native klikcair component :id=description
 react native component is custom component for react native. support typescript
 
 <!-- 

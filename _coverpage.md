@@ -9,4 +9,4 @@
 - COOMING SOON
 
 [GitHub](https://github.com/toniebe)
-[Get Started](#ANNOUNCEMENT)
+[Get Started](#description)
